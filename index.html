@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoprime Dealer</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #222;
+        }
+
+        /* HERO SECTION */
+        header {
+            background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80') center/cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 0 0 15px rgba(0,0,0,0.7);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            text-shadow: 0 0 10px rgba(0,0,0,0.7);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            background: #d32f2f;
+            padding: 12px 28px;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #f44336;
+        }
+
+        /* SECTION */
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* GRID MOBIL */
+        .cars {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .car-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .car-card:hover {
+            transform: translateY(-7px);
+        }
+
+        .car-card img {
+            width: 100%;
+        }
+
+        .car-card h3 {
+            padding: 16px;
+            margin: 0;
+        }
+
+        .price {
+            padding: 0 16px 16px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+
+        /* TESTIMONI */
+        .testimoni {
+            background: #fff;
+            border-left: 5px solid #d32f2f;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* FOOTER */
+        footer {
+            background: #222;
+            text-align: center;
+            padding: 20px;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <h1>AutoPrime Dealer</h1>
+        <p>Temukan mobil impian Anda dengan harga terbaik, kualitas terjamin, dan layanan profesional.</p>
+        <a href="#cars" class="btn">Lihat Mobil</a>
+    </header>
+<!-- MOBIL LIST -->
+<section id="cars">
+    <h2>Mobil Pilihan Kami</h2>
+    <div class="cars">
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=900&q=80" alt="Toyota Supra">
+                <h3>Toyota Supra 2023</h3>
+                <p class="price">Rp 1.950.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=900&q=80" alt="Civic Type R">
+                <h3>Honda Civic Type R</h3>
+                <p class="price">Rp 1.150.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://images.ibid.astra.co.id/ibid/acvpro/141186/img/98740e684e7f023de538eaa224d3740a.png" alt="Pajero">
+                <h3>Mitsubishi Pajero Sport</h3>
+                <p class="price">Rp 560.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwmNdWeLAQNtdQ2Aedp82nU945C31PVAoJew&s" alt="Toyota GT 86">
+                <h3>Toyota GT 86</h3>
+                <p class="price">Rp 1.000.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://lxpr.lspr.ac.id/wp-content/uploads/2024/03/Nissan_Skyline_-_2F2F.webp" alt="Nissan Skyline R34">
+                <h3>Nissan Skyline R34</h3>
+                <p class="price">Rp 6.600.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://preview.redd.it/ij1lsz0siyn91.jpg?width=1080&crop=smart&auto=webp&s=3c3ccaa0a905c81d2d16453615825f3ab53afc63" alt="Nissan Silvia S15">
+                <h3>Nissan Silvia S15</h3>
+                <p class="price">Rp 652.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKsUq_IGGOIcc4bZKrYeljRdumSwY5gG-_A&s" alt="Toyota AE 86 Trueno">
+                <h3>Toyota AE 86 Trueno</h3>
+                <p class="price">Rp 1.000.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://bringatrailer.com/wp-content/uploads/2023/11/1994_mazda_rx-7-uscan_2-26497.jpeg?fit=940%2C626" alt="Mazda RX 7">
+                <h3>Mazda RX 7</h3>
+                <p class="price">Rp 7.000.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5a6MuT9aQ-j1g32vAVIe_n_hhNIZaXsWrRw&s" alt="Mazda Miata">
+                <h3>Mazda Miata</h3>
+                <p class="price">Rp 975.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://s3-id-jkt-1.kilatstorage.id/fastnlow/2021/07/BMW-E30-M3-7.jpg" alt="BMW E30">
+                <h3>BMW E30</h3>
+                <p class="price">Rp 85.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://otoblitz.net/wp-content/uploads/2021/01/Screenshot_20210116-114906_Google-1024x661.jpg" alt="Mitsubishi Lancer 5">
+                <h3>Mitsubishi Lancer 5</h3>
+                <p class="price">Rp 120.000.000</p>
+            </a>
+        </div>
+
+        <div class="car-card">
+            <a href="https://wa.me/6281235201708">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Goodwood_Festival_of_Speed_2021_%2851307685033%29.jpg" alt="BMW M5">
+                <h3>BMW M5</h3>
+                <p class="price">Rp 2.000.000.000</p>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- TESTIMONI -->
+<section>
+    <h2>Apa Kata Pelanggan?</h2>
+
+    <div class="testimoni">
+        ⭐⭐⭐⭐⭐ <br>
+        "Pelayanan cepat, ramah, dan mobil datang dalam kondisi sangat baik."
+        <br>— Andi Pratama
+    </div>
+
+    <div class="testimoni">
+        ⭐⭐⭐⭐⭐ <br>
+        "Harga terbaik! Sudah bandingin ke banyak dealer lain."
+        <br>— Siti Rahma
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 AutoPrime Dealer — Semua Hak Dilindungi.
+</footer>
+
+</body>
+</html>
+
+</body>
+</html>
